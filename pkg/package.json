@@ -1,0 +1,21 @@
+{
+  "name": "pika",
+  "description": "",
+  "version": "1.0.1",
+  "license": "ISC",
+  "files": [
+    "dist-*/",
+    "bin/"
+  ],
+  "pika": true,
+  "sideEffects": false,
+  "keywords": [],
+  "dependencies": {
+    "@pika/pack": "^0.5.0",
+    "lit-element": "^2.2.1"
+  },
+  "devDependencies": {
+    "@pika/plugin-standard-pkg": "^0.6.0"
+  },
+  "esnext": "dist-src/index.js"
+}
